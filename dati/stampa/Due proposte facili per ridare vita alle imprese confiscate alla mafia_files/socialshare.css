@@ -1,0 +1,80 @@
+#socialtab-wrapper {height:327px;margin-bottom:50px}
+.socialshare{
+		/*width:299px;*/
+		/*min-width:300px;*/
+		height:326px;
+		/*margin-bottom: 50px;*/
+		background: #999;
+		}
+		
+		.socialbar .tab,
+		.socialbar .head{
+			height:43px;
+			
+			background: #999;
+			margin-top: 3px;
+		}
+		.socialbar {
+		height: 46px;
+		background: #999;
+		}
+		
+		.socialbar .tab{
+			width:56px;
+			text-align:center;
+			float:right;
+			cursor: pointer;
+			}
+		
+		.socialbar .head {
+			width:75px;
+			font-family: 'Six2', Arial, sans-serif;
+			color: white;
+			font-size: 28px;
+			font-weight: 400;
+			float:left;
+		}
+		
+		.socialbar .head p {padding: 0 0 0 11px}
+		
+		.socialbar .tab:hover {background:#888;}
+		
+		.socialbar .tab .icon{
+			width:32px;
+			height:32px;
+			margin: 7px 10px;
+		}
+		
+		.socialbar .mail .icon{background:url(images/socialshare-mail.png) no-repeat;}
+		.socialbar .fb .icon{background:url(images/socialshare-fb.png) no-repeat;}
+		.socialbar .twitter .icon{background:url(images/socialshare-twitter.png) no-repeat;}
+		.socialbar .gplus .icon{background:url(images/socialshare-gplus.png) no-repeat;}
+		
+		.socialcontainer{
+			width:100%;
+			height: 277px;
+			/*margin-top:50px;*/
+			/*margin-bottom:50px;*/
+			background: #e9e4dd;
+			overflow:hidden;
+			border-bottom: 3px solid #333;
+		}
+		
+		.socialcontainer .content {
+			height: 250px;
+			/*padding: 15px;*/
+		}
+		
+		.socialcontainer .mail {height: 266px;}
+		.socialcontainer .gplus {background:black;height: 280px;}
+		
+		
+		.active, .socialbar .active:hover {
+			background:#e9e4dd!important;}
+		
+		.active {
+			height:46px!important;
+			margin:0!important;
+		}
+		
+		.hide {display:none}
